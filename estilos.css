@@ -1,0 +1,22 @@
+body{
+    background-color: #73bfaa;
+    text-align: center;}
+header{
+    background-color: #322e2f;
+    color:#C7DDCC;}
+    header h1{
+        text-transform: uppercase;}
+nav{
+    background-color: #C7DDCC; 
+    text-transform: uppercase;}
+    nav a{/* se ingresa dentro de la etsructura de nav a la subestructura de enlaces llamada nav a*/
+        color:#322E2F;
+        text-decoration: none;}  
+main{
+    background-color: #C7DDCC; }
+    section{
+    background-color: #14B5D9;}
+    article{
+    background-color:#D91494 ;}
+footer{
+    background-color:#D9CB11 ;}
