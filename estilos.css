@@ -1,4 +1,4 @@
-*{font-family: Arial, Helvetica, sans-serif;
+*{font-family:Arial, Helvetica, sans-serif;
     margin : 0;}
 body{
     background-color: #73bfaa;
@@ -6,34 +6,56 @@ body{
     width: 600px;
     margin: auto;}
 header{
+    border: #322e2f solid 6px;
     background-color: #322e2f;
     color:#C7DDCC;
-    padding: 10px;}
+    padding-top: 5px;}
     header h1{
         text-transform: uppercase;
-        margin: 10px;}
-nav{
-    background-color: #C7DDCC; 
-    text-transform: uppercase;
-    padding: 10px 0px;}
-    nav a{/* se ingresa dentro de la etsructura de nav a la subestructura de enlaces llamada nav a*/
-        color:#322E2F;
-        text-decoration: none;
-        margin: 0px 25px;}  
+        margin: 16px;}
+    nav{
+        background-color: #C7DDCC; 
+        text-transform: uppercase;
+        padding: 18px 0px;}
+        nav a{/* se ingresa dentro de la estructura de nav a la subestructura de enlaces llamada nav a*/
+            color:#322E2F;
+            text-decoration: none;
+            margin: 0px 25px;}  
 main{
     background-color: #C7DDCC; 
     margin:10px 0px;
     padding: 1%;
+    height: 208px;
     }
-    span{
-    box-align: auto;    
+   
+    section, article{
+        box-sizing: border-box;
+        height: 100%;
+        padding: 20px;
     }
-    section{
-    background-color: #14B5D9;
-    width: 60%;}
+    section{   
+        background-color: #14B5D9;
+        float: left;
+        width: 72.5%;}
+        section h2{
+            padding-bottom: 30px;
+        }
+        section p {
+            padding: 10px;
+        }
     article{
-    background-color:#D91494 ;
-    width : 30%}
+        background-color:#D91494 ;
+        float: right;
+        width : 26.5%}
+        article h2{
+            padding: 10px 0px 10px 0px;
+        }
+        article p{
+            padding: 10px 0px;
+        }
+        .submit{
+            margin: 10px 0px;
+        }
 footer{
     background-color:#D9CB11 ;
     padding: 20px 0;}
