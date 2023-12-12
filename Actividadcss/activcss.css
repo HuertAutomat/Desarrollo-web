@@ -1,0 +1,89 @@
+*{font-family:Arial, Helvetica, sans-serif;
+    margin : 0;}
+   body{
+        background-color: white;
+        text-align: center;
+        margin: auto;
+    }   
+       header{           
+        background-color: white;
+        color: black;
+        position: relative;
+        padding-top: 5px;}
+        header div{
+            height: 40px;
+            width: 150px;          
+            background-image: url("logo.svg");
+            background-size:contain;
+            background-position: center;
+            position: relative;
+            top: 5px;
+            left: 8%;
+        }      
+        nav{
+            border-top: black solid 1px;
+            background-color: white;
+            margin-top: 10px;      
+            padding: 10px 8% 10px 0px;
+            text-align: right;
+        }
+        nav a{/* se ingresa dentro de la estructura de nav a la subestructura de enlaces llamada nav a*/
+                color:#9A8F73;
+                text-decoration: none;
+                margin: 0px 2px 0px 30px;
+                }   
+        main{
+            background-image: url("hero.jpg");
+            background-size:cover;
+            background-position: center;       
+            height: 500px ;
+            width: 98%;
+            position: relative;
+            left: 1%;
+            }
+            div{
+                font-family:Arial, Helvetica, sans-serif;
+                color: white;
+                text-transform: uppercase;
+            }
+            .d1{
+                font-size: 200%;
+                font-weight: bold;
+                position: absolute;
+                
+                top:10%;
+                left:8% ;
+            }
+            .d2{
+                font-size: 200%;
+                font:lighter;
+                position: absolute;
+                top:20%;
+                left:17% ;
+            }
+            .d3{
+                font-size: 450%;
+                font-weight: bold;
+                position: absolute;
+                top:15%;
+                left:24% ;
+            }
+            .d4{
+                font-size: 450%;
+                font-weight:bolder;
+                position: absolute;
+                top:30%;
+                left:24% ;
+            }
+            .d5{
+                font-size: 200%;
+                font-weight: lighter;
+                position: absolute;
+                top:48%;
+                left:24% ;
+            }
+        footer h3{
+                padding-top: 25px;
+                color: #9A8F73;
+                 }
+    
